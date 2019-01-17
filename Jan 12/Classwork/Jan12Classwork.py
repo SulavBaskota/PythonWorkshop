@@ -105,15 +105,7 @@ popped = list_4.pop(3) # pops the object at the specified position/ index from t
 print("popped: ", popped)
 print(list_4)
 
-"""
-std_data2 = ["Shreyansh Lodha", 100, 100,100, 100, 100] # declaration od another list
-print(std_data2)
-print("Adding these list")
 
-std_data.extend(std_data2) # adding std_data2 to std_data using extend
-print(std_data)
-
-"""
 
 
 
