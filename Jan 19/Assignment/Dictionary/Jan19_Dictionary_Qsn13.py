@@ -15,7 +15,7 @@ new_dict = {
 
 """ #Alternative Solution:
 for key, val in dict_1.items():
-if val not in new_dict.values():
+    if val not in new_dict.values():
         new_dict[key] = val
 print(new_dict)
 """
