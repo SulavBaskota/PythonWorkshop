@@ -6,6 +6,7 @@ str_1 = input("Enter a string: ")
 vowel = 0
 str_dict = {}
 for each in str_1:
+    each = each.lower()
     if each == 'a' or each == 'e' or each == 'i' or each == 'o' or each == 'u':
         str_dict[each] = str_1.count(each)
         vowel = vowel + 1
